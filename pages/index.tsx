@@ -7,7 +7,7 @@ export default function Home() {
         <h1 className="text-3xl font-serif mb-3">RichAF.Global Trips</h1>
         <p className="text-black/70 mb-6">Launch client‑specific pages as subpaths under one subdomain.</p>
         <Link className="inline-block px-6 py-3 rounded-full bg-black text-white" href="/client/quintana-roo">
-          Open Demo Page
+          View Your Trip
         </Link>
       </div>
     </main>
