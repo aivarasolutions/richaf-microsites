@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  --richaf-gold:#D4AF37;
+  --richaf-ink:#0E0E0E;
+  --richaf-paper:#FAF8F5;
+}
+.font-serif{ font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif; }
