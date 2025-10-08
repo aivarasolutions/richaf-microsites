@@ -40,7 +40,7 @@ const DATA: LocationBlock[] = [
         adultsOnly: false,
         allInclusive: true,
         vibe: ["Beachfront", "Resort"],
-        hero: "/images/luxury_beachfront_re_41d6dd18.jpg",
+        hero: "https://www.iberostarcancunhotel.com/images/gallery/iberostar-selection-cancun-01.jpg",
         thumbs: [
           "/images/luxury_resort_pool_c_57b7e02d.jpg",
           "/images/tropical_resort_beac_14d4e092.jpg",
@@ -62,7 +62,7 @@ const DATA: LocationBlock[] = [
         adultsOnly: false,
         allInclusive: true,
         vibe: ["Family-friendly", "Club Level"],
-        hero: "/images/luxury_beachfront_re_bf16c9f5.jpg",
+        hero: "https://assets.hyatt.com/content/dam/hyatt/hyattdam/images/2021/12/07/1005/Hyatt-Ziva-Cancun-Pool.jpg",
         thumbs: [
           "/images/tropical_resort_beac_03a3c6a7.jpg",
           "/images/luxury_hotel_room_oc_7c2072db.jpg",
@@ -89,7 +89,7 @@ const DATA: LocationBlock[] = [
         adultsOnly: true,
         allInclusive: true,
         vibe: ["Boutique", "Luxury"],
-        hero: "/images/luxury_beachfront_re_c274ae3d.jpg",
+        hero: "https://cache.marriott.com/Content/dam/marriott-digital/mx/hotels/cunim/cunim-exterior-27557.jpg",
         thumbs: [
           "/images/adults_only_luxury_r_51bfb744.jpg",
           "/images/luxury_hotel_room_oc_2f4ec9e1.jpg",
@@ -111,7 +111,7 @@ const DATA: LocationBlock[] = [
         adultsOnly: true,
         allInclusive: true,
         vibe: ["Relaxed", "Great Beach"],
-        hero: "/images/luxury_beachfront_re_abd4cdb7.jpg",
+        hero: "https://www.privilegehotels.com/images/custom/galeria/hotel/galeria_hotel_1_mini.jpg",
         thumbs: [
           "/images/tropical_resort_beac_14d4e092.jpg",
           "/images/luxury_resort_pool_c_57b7e02d.jpg",
@@ -138,7 +138,7 @@ const DATA: LocationBlock[] = [
         adultsOnly: true,
         allInclusive: true,
         vibe: ["Iconic Beach", "Romantic"],
-        hero: "/images/luxury_beachfront_re_210a65fa.jpg",
+        hero: "https://assets.hyatt.com/content/dam/hyatt/hyattdam/images/2024/02/15/1143/Secrets-Maroma-Beach-Pool.jpg",
         thumbs: [
           "/images/luxury_hotel_room_oc_3a3eb040.jpg",
           "/images/tropical_resort_beac_c60d133b.jpg",
@@ -160,7 +160,7 @@ const DATA: LocationBlock[] = [
         adultsOnly: true,
         allInclusive: true,
         vibe: ["Modern", "Design-forward"],
-        hero: "/images/luxury_beachfront_re_e6fc3229.jpg",
+        hero: "https://assets.hyatt.com/content/dam/hyatt/hyattdam/images/2023/04/12/1651/Secrets-Moxche-Exterior.jpg",
         thumbs: [
           "/images/adults_only_luxury_r_00cd1a98.jpg",
           "/images/luxury_resort_pool_c_25fbb954.jpg",
@@ -182,7 +182,7 @@ const DATA: LocationBlock[] = [
         adultsOnly: true,
         allInclusive: true,
         vibe: ["Value", "Walkable"],
-        hero: "/images/luxury_beachfront_re_30c4714d.jpg",
+        hero: "https://assets.hyatt.com/content/dam/hyatt/hyattdam/images/2024/05/20/1400/Hyatt-Vivid-Playa-del-Carmen-Pool.jpg",
         thumbs: [
           "/images/adults_only_luxury_r_fc40d5a7.jpg",
           "/images/luxury_resort_pool_c_c7459413.jpg",
