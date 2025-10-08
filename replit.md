@@ -4,10 +4,12 @@
 Next.js microsite application migrated from Vercel to Replit. Features client pages with optional basic authentication and SEO controls.
 
 ## Recent Changes
-**October 08, 2025**: Fixed hotel thumbnail images
-- Moved stock resort images to /public/images/ directory for proper Next.js static asset serving
-- Updated all 7 hotel properties to use locally hosted thumbnail images
-- Resolved 404 errors caused by hotlink-protected external hotel website images
+**October 08, 2025**: Fixed all hotel images (hero and thumbnails)
+- Extracted actual hotel hero images from booking agent PDFs using PyMuPDF
+- All 7 properties now display authentic hotel photos for main hero images
+- Added stock resort images for thumbnail galleries
+- All images served locally from /public/images/ directory
+- Resolved hotlink protection and 404 errors from external hotel websites
 
 **October 07, 2025**: Migrated project from Vercel to Replit
 - Configured Next.js to run on port 5000 with 0.0.0.0 binding for Replit compatibility
@@ -27,7 +29,7 @@ Next.js microsite application migrated from Vercel to Replit. Features client pa
   - `index.tsx` - Home page
   - `_app.tsx` - Custom App component
 - `/components` - React components
-- `/public/images` - Static resort images for hotel thumbnails
+- `/public/images` - Hotel hero images (extracted from PDFs) and thumbnail images
 - `/styles` - Global CSS files
 - `middleware.ts` - Basic authentication middleware for /client/* routes
 

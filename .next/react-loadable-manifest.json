@@ -1,8 +1,1 @@
-{
-  "pages/client/[slug].tsx -> @/components/RichAFQuintanaRoo": {
-    "id": "pages/client/[slug].tsx -> @/components/RichAFQuintanaRoo",
-    "files": [
-      "static/chunks/components_RichAFQuintanaRoo_tsx.js"
-    ]
-  }
-}
+{}
