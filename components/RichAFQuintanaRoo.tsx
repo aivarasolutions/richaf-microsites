@@ -50,7 +50,7 @@ const DATA: LocationBlock[] = [
         room: "Premium Ocean View — All Inclusive",
         total: 2109,
         rooms: [
-          { name: "Premium Ocean View", total: 2109, notes: "Quoted category · Taxes/fees incl." },
+          { name: "Premium Ocean View", total: 2109, notes: "Quoted category" },
           { name: "Superior Ocean View", total: null, notes: "Request exact quote" },
           { name: "Suite Oceanfront", total: null, notes: "Request exact quote" },
         ],
@@ -72,7 +72,7 @@ const DATA: LocationBlock[] = [
         room: "Resort View — All Inclusive",
         total: 2900,
         rooms: [
-          { name: "Resort View", total: 2900, notes: "Quoted category · Taxes/fees incl." },
+          { name: "Resort View", total: 2900, notes: "Quoted category" },
           { name: "Oceanfront King", total: null, notes: "Request exact quote" },
           { name: "Club Oceanfront", total: null, notes: "Request exact quote" },
         ],
@@ -99,7 +99,7 @@ const DATA: LocationBlock[] = [
         room: "Standard King — All Inclusive",
         total: 3662,
         rooms: [
-          { name: "Standard King", total: 3662, notes: "Quoted category · Taxes/fees incl." },
+          { name: "Standard King", total: 3662, notes: "Quoted category" },
           { name: "Deluxe King Ocean View", total: null, notes: "Request exact quote" },
           { name: "Suite", total: null, notes: "Request exact quote" },
         ],
@@ -111,17 +111,17 @@ const DATA: LocationBlock[] = [
         adultsOnly: true,
         allInclusive: true,
         vibe: ["Relaxed", "Great Beach"],
-        hero: "https://www.privilegehotels.com/cache/9f/0f/9f0f5a3d1b2a5ff3f0a7e3a2c2c5e2a7.jpg",
+        hero: "https://www.privilegehotels.com/images/custom/galeria/hotel/galeria_hotel_1_mini.jpg",
         thumbs: [
-          "https://www.privilegehotels.com/cache/5b/bd/5bbd-room.jpg",
-          "https://www.privilegehotels.com/cache/21/aa/21aa-beach.jpg",
-          "https://www.privilegehotels.com/cache/77/cc/77cc-pool.jpg",
+          "https://www.privilegehotels.com/images/custom/galeria/hotel/galeria_hotel_5_mini.jpg",
+          "https://www.privilegehotels.com/images/custom/galeria/hotel/galeria_hotel_9_mini.jpg",
+          "https://www.privilegehotels.com/images/custom/galeria/hotel/galeria_hotel_6_mini.jpg",
         ],
         gallery: "https://www.privilegehotels.com/gallery",
         room: "Suite King with Jacuzzi — All Inclusive",
         total: 3242,
         rooms: [
-          { name: "Suite King Jacuzzi", total: 3242, notes: "Quoted category · Taxes/fees incl." },
+          { name: "Suite King Jacuzzi", total: 3242, notes: "Quoted category" },
           { name: "Honeymoon Suite", total: null, notes: "Request exact quote" },
           { name: "Grand Platinum Suite", total: null, notes: "Request exact quote" },
         ],
@@ -148,7 +148,7 @@ const DATA: LocationBlock[] = [
         room: "Junior Suite Tropical View — All Inclusive",
         total: 2976,
         rooms: [
-          { name: "Junior Suite Tropical View", total: 2976, notes: "Quoted category · Taxes/fees incl." },
+          { name: "Junior Suite Tropical View", total: 2976, notes: "Quoted category" },
           { name: "Junior Suite Ocean View", total: null, notes: "Request exact quote" },
           { name: "Preferred Club Suite", total: null, notes: "Request exact quote" },
         ],
@@ -170,7 +170,7 @@ const DATA: LocationBlock[] = [
         room: "Junior Suite Tropical View — All Inclusive",
         total: 4087,
         rooms: [
-          { name: "Junior Suite Tropical View", total: 4087, notes: "Quoted category · Taxes/fees incl." },
+          { name: "Junior Suite Tropical View", total: 4087, notes: "Quoted category" },
           { name: "Junior Suite Swim-Out", total: null, notes: "Request exact quote" },
           { name: "Preferred Club Ocean View", total: null, notes: "Request exact quote" },
         ],
@@ -192,7 +192,7 @@ const DATA: LocationBlock[] = [
         room: "Junior Suite — All Inclusive",
         total: 1927,
         rooms: [
-          { name: "Junior Suite", total: 1927, notes: "Quoted category · Taxes/fees incl." },
+          { name: "Junior Suite", total: 1927, notes: "Quoted category" },
           { name: "Oceanfront Junior Suite", total: null, notes: "Request exact quote" },
           { name: "Club Oceanfront", total: null, notes: "Request exact quote" },
         ],
@@ -260,7 +260,6 @@ function HotelCard({ h, onOpen, onCompare }: { h: Hotel; onOpen: (h: Hotel)=>voi
             ))}
           </div>
         </div>
-        <div className="mt-2 text-sm text-black/70">Taxes & fees included. Commission already factored into totals.</div>
         <div className="flex items-center justify-between mt-4">
           <div className="flex gap-2">
             <button onClick={() => onOpen(h)} className="px-4 py-2 rounded-full bg-black text-white text-sm hover:opacity-90">View Details</button>
@@ -321,7 +320,7 @@ export default function RichAFQuintanaRoo() {
             </div>
             <h1 className="text-4xl md:text-5xl font-serif leading-tight">Curated Honeymoon Resorts by Location</h1>
             <p className="mt-4 text-[15px] text-black/70 max-w-xl">
-              Elegant, fast, and client‑friendly. These totals are for <strong>5 nights</strong> with taxes & fees included and <strong>commission already factored in</strong>.
+              Elegant, fast, and client‑friendly. These totals are for <strong>5 nights</strong>.
             </p>
             <div className="mt-6 flex gap-3">
               <a href="#picks" className="px-6 py-3 rounded-full bg-black text-white hover:opacity-90">See the Picks</a>
